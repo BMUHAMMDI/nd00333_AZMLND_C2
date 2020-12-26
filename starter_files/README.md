@@ -82,15 +82,25 @@ for line in logs.split('\n'):
   
   ![Picture7](https://user-images.githubusercontent.com/52258731/103157556-f2f16300-47c4-11eb-8362-70d93497b088.png)
   
-  11. Finally, to have a summary about the response performance of the deployed model we'll update the provided benchmark.sh file with the same REST endpoint and primary Key. Running it with command [bash benchmark.sh] should produce similar results as figure 8.
+  11. Finally, to get a summary about the response performance of the deployed model we'll update the provided benchmark.sh file with the same REST endpoint and primary Key. Running it with command [bash benchmark.sh] should produce similar results as figure 8.
   
   ![Picture8](https://user-images.githubusercontent.com/52258731/103157642-2f718e80-47c6-11eb-86dd-02b0dde5405c.png)
   
    ### Part 2: Publish an ML Pipeline using Python SDK
+   1. Upload the provided notebook aml-piplines-with-automated-machine-learning-step.ipynb to Azure ML studio and update experiment, dataset, and compute cluster to match the existing Automated ML run. 
+  2.	Run through the cells to create, publish, and consume the pipeline
+  3. The following screenshots show the created pipeline as figure 9, the pipeline endpoint in Azure ML studio as figure 10, the dataset with AutoML as figure 11, the published pipeline overview where the status is active as figure 12, and the output of “Use RunDetails Widget” for the pipeline run as figure 13.
 
+![Picture9](https://user-images.githubusercontent.com/52258731/103157974-e58aa780-47c9-11eb-86ae-51cf206c5fe7.png)
+
+![Picture10](https://user-images.githubusercontent.com/52258731/103157980-fd622b80-47c9-11eb-910f-bf903ff85cb1.png)
+
+![Picture11](https://user-images.githubusercontent.com/52258731/103157993-15d24600-47ca-11eb-8c67-8381fcf41324.png)
+
+![Picture12](https://user-images.githubusercontent.com/52258731/103158010-40240380-47ca-11eb-8816-e8d8fe1f88bc.png)
+
+![Picture13](https://user-images.githubusercontent.com/52258731/103158018-592cb480-47ca-11eb-8ffd-0b5ec69cd7c7.png)
  
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+https://www.youtube.com/watch?v=SKPvYNLECiQ
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
