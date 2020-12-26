@@ -17,7 +17,7 @@ In the following diagram, we will define all the steps of our project from start
 -	Creating Pipeline Using Python SDK: create and schedule ML pipeline run. 
 -	Publishing and Consuming Pipeline: publish and interact with a pipeline via an HTTP API endpoint.
 
-## Future Work:
+## Future Work
 
   We can add more data or use the feature engineering technique to add more columns which may give us better result in our model training. Also, this project use ACI service to deploy the model which is known by its fast and simplicity and as a future improvement we can try to use AKS service that can expand but it will take more effort.
 
