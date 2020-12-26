@@ -33,8 +33,7 @@ In the following diagram, we will define all the steps of our project from start
    
    3. After the experiment run completed, go to the Automated ML section, and find the recent experiment with a completed status. Click on it. Go to the "Model" tab and select the best model from the list and click it. Above it, a triangle button (or Play button) will show with the "Deploy" word. Click on it. Fill out the form with a meaningful name and description. For Compute Type use Azure Container Instance (ACI). Enable Authentication. Deployment takes a few seconds. After a successful deployment, a green checkmark will appear on the "Run" tab and the "Deploy status" will show as succeed.
    
-   4. Then, we will enable application insights of the deployed model by editing the provided logs.py script using the terminal. It should be similar to this:
-   
+   4. Then, we will enable application insights of the deployed model by editing the provided logs.py script using the terminal. First, we need to download the config.json file from the top left menu in the Azure portal. Move this file to starters_files. Modify logs.py script to be like this:
    
    ```
    from azureml.core import Workspace
